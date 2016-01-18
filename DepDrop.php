@@ -35,7 +35,7 @@ class DepDrop extends InputWidget
      * @var int the type of the dropdown element. Defaults to `1`. Can be one of the following:
      *
      * - 1 or [[DepDrop::TYPE_DEFAULT]] will render using \yii\helpers\Html::dropDownList
-     * - 2 or [[DepDrop::TYPE_SELECT2]] will render using \kartik\widgets\Select2 widget
+     * - 2 or [[DepDrop::TYPE_SELECT2]] will render using \kartik\select2\Select2 widget
      */
     public $type = self::TYPE_DEFAULT;
 
